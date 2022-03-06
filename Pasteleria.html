@@ -1,0 +1,241 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+    <style>
+        h1{
+            color: #173848;
+            font-family: Arial;
+            font-size: 400%;
+            text-align: center;
+        }
+        h2{
+            color: #faef77;
+            font-family: Arial;
+            font-size: 250%;
+            text-align: center;
+        }
+
+        h3{
+            color: rgb(231, 248, 132);
+            font-family: Arial;
+            font-size: 200%;
+            text-align: center;
+        }
+
+        body{
+            background-image:url(Images/Cover.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       
+         header {
+            background-color: #faef77;
+            padding: 30px;
+            text-align: center;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 150%;
+            color: whitesmoke;
+            text-align: center;
+        }
+        .Sabor{
+            background-color: #361e50;
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            border: 3px solid #faef77;
+            margin: 60px;
+            padding: 40px;
+            text-align: center;
+            border-radius: 22px;
+        }
+        .Adornos{
+            background-color: #361e50;
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            border: 3px solid #faef77;
+            margin: 60px;
+            padding: 40px;
+            text-align: center;
+            border-radius: 22px;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%;
+            overflow: hidden;
+            background-color: #361e50;
+        }
+        li{
+            float: left;
+        }
+        li a{
+           display: block; 
+           color: whitesmoke;
+           padding: 16px;
+           text-decoration: none;
+        }
+        li a:hover{
+            background-color: #173848;
+        }
+        form{
+            margin: 0 auto;
+            width: 400px;
+            padding: 40px;
+            border: 3px solid #faef77;
+            background-color: #361e50;
+            border-radius: 22px;
+            text-align: center;
+            font: Helvetica;
+        }
+        label{
+            display: inline-block;
+            width: 90px;
+            text-align: right;
+            color: #faef77;
+        }
+        input,textarea{
+            
+            font: arial;
+            width: 300px;
+            box-sizing: border-box;
+            border: 1px solid #361e50;
+        }
+        input[type = "checkbox"]{
+            display: none;
+        }
+        textarea{
+            vertical-align: top;
+            height: 5em;
+        }
+        footer {
+            background-color:#361e50;
+            padding: 10px;
+            text-align: center;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <!--Inicia la sección de menú-->
+    <header>
+        <h1>Pasteleria Galactica 👨‍🚀</h1>
+    </header>
+    <ul>
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="#Sabores">Sabores</a></li>
+        <li><a href="#Adornos">Adornos</a></li>
+        <li><a href="#Pedidos">Pedidos</a></li>
+    </ul>
+    <!--Termina la sección del menú-->
+    <!--Inicia la sección Inicio-->
+    <section id="Inicio">
+        <h2>Nuestros productos<br></h2>
+        <p>
+            Somos "Pasteleria Galactica" nuestra historia comienza en febrero de 2022<br>
+            en el lanzamiento de LaunchX, nuestra especialidad son los pasteles<br>
+            "¡Fuera de este mundo!"<br>
+            <br>
+            <img src="Images/HeaderCakes.png" alt="PastelesGalacticos" width="550" height="550">
+            <br>
+            <br>
+            Dejamos todo en la tierra 🌎 para convertirnos en Full Stack Developers... Pero claro<br>
+            hay que comer algo, es por ello que surje la necesidad de crear productos de alta calidad <br>
+            para tomar está misión con la mayor energía posible, así que... <br>
+            <h3>¿Qué esperas?</h3>
+            <p>
+                estaremos encantados de atenderte, realiza tú pedido ahora mismo
+            </p>
+        </p>
+    </section>
+    <!--Termina la sección de inicio-->
+    <hr>
+    <!--Inicia la sección de sabores-->
+    <section id="Sabores">
+        <h2>Sabores</h2>
+        <p>Contamos con una amplia variedad de sabores (3) con los que volaras a otros planetas</p>
+        <div class="Sabor">
+            <h3>Deli-Marte</h3>
+            <p>Sabor a frutos rojos, fresa, franbuesa y cereza.</p>
+            <img src="Images/Deli-Marte.png" alt="Deli-Marte" width="150" height="150">
+        </div>
+        <div class="Sabor" alinig = "">
+            <h3>Saturno-Party</h3>
+            <br>
+            <p>Sabor combinado de una selecta variedad de leches, frutos rojos y chocolate.</p>
+            <img src="Images/Saturno-Party.png" alt="Deli-Marte" width="150" height="150">
+        </div>
+        <div class="Sabor">
+            <h3>Choco-Earth</h3>
+            <p>Sabor a chocolate oscuro semi-amargo.</p>
+            <img src="Images/Choco-Earth.gif" alt="Deli-Marte" width="150" height="150">
+        </div>
+    </section>
+    <!--Termina la sección de sabores-->
+    <hr>
+    <!--Inicia sección Adornos-->
+    <section id="Adornos">
+        <h2>Adornos<br></h2>
+        <div class="Adornos">
+            <h3>Meteoritos</h3>
+            <br>
+            <p>
+                Adorno de chipas de chocolate de diferentes colores
+            </p>
+            <img src="Images/Meteoritos.png" alt="Meteoritos" width="150" height="150">
+        </div>
+        <div class="Adornos">
+            <h3>Vialactea</h3>
+            <br>
+            <p>
+                Cubierta de chantillin y chocolate blanco
+            </p>
+            <img src="Images/Vialactea.gif" alt="Vialactea" width="150" height="150">
+        </div>
+        <div class="Adornos">
+            <h3>ISS (International Space Station)</h3>
+            <br>
+            <p>
+                Cubierta de frutas de temporada como, durazano, piña, mango.
+            </p>
+            <img src="Images/ISS.png" alt="ISS" width="150" height="150">
+        </div>
+    </section>
+    <!--Termina sección Adornos-->
+    <hr>
+    <!--Inicia sección pedidos (formulario)-->
+    <section id="Pedidos">
+        <h2>Pedidos<br></h2>
+        <h3>A continuación llena los campos para poder realizar tú pedido</h3>
+        <br>
+        <form action="">
+            <h3>Tús datos 👨‍🚀</h3>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre" value="Tú nombre"><br><br>
+            <label for="Tel">Telefono:</label>
+            <input type="tel" id="Tel" name="Tel" maxlength="10" ><br><br>
+            <label for="Correo">Correo: </label>
+            <input type="email" id="Correo" name="Correo" value="correo@dominio.com">
+            <h3>Sabores y adornos 👩‍🍳</h3>
+            <label for="Sabores">Sabores:</label>
+            <input type="text" id="Sabores" name="Sabores" value="El sabor"><br><br>
+            <label for="Adornos">Adornos:</label>
+            <input type="text" id="Adornos" name="Adornos" value="Los adornos"><br><br>
+            <label for="Comen">Comentarios:</label>
+            <input type="text" id="Comen" name="Comen"><br>
+        </form>
+    </section>
+    <!--Termina sección pedidos (formulario)-->
+    <br>
+    <footer>
+        <br>
+        Página por @Isui Lugo para LaunchX 🚀<br>
+        <br>
+    </footer>
+</body>
+</html>
