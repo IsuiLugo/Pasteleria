@@ -26,7 +26,7 @@ Bonus: Solo si consideramos necesario, agregar CSS, pero no es obligatorio para 
 - Marca: Pasteleria Galactica  
 - Mensajes de marca: 
 
-https://raw.github.com/IsuiLugo/Pasteleria/blob/master/Images/HeaderCakes.png
+![Marketing de Pasteleria](https://raw.github.com/IsuiLugo/Pasteleria/blob/master/Images/HeaderCakes.png)
 
   
  Realize el Deploy del sitio con GitHub Pages y se encuentra [aquí](https://isuilugo.github.io/Pasteleria/Pasteleria)
