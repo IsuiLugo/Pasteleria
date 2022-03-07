@@ -106,18 +106,25 @@
             box-sizing: border-box;
             border: 1px solid #361e50;
         }
-        input[type = "checkbox"]{
-            display: none;
-        }
         textarea{
             vertical-align: top;
             height: 5em;
+        }
+        .boton{
+            margin: 10%;
+            border: 2px solid #faef77;
+            color: #faef77;
+            border-radius: 20px;
+            background-color: #361e50;
+            text-align: center;
+            font-style: normal;
         }
         footer {
             background-color:#361e50;
             padding: 10px;
             text-align: center;
             color: whitesmoke;
+            
         }
     </style>
 </head>
@@ -227,14 +234,34 @@
             <label for="Adornos">Adornos:</label>
             <input type="text" id="Adornos" name="Adornos" value="Los adornos"><br><br>
             <label for="Comen">Comentarios:</label>
-            <input type="text" id="Comen" name="Comen"><br>
+            <input type="text" id="Comen" name="Comen"><br><br>
+            <input type="submit" value="Enviar" class="boton">
         </form>
     </section>
     <!--Termina sección pedidos (formulario)-->
     <br>
+    <hr>
+    <!-- Inicia la sección de los datos -->
+    <section id="Datos">
+        <h2>Datos de contacto</h2>
+        <p>
+            Dirección: Vía Lactea No. 3, Planeta Tierra. <br>
+            Télefono: 01800-PASTELES-GALACTICOS <br><br>
+            Horarios de atención: <br>
+            Lunes: 10:00 a 20:00 hrs. <br>
+            Martes: 10:00 a 20:00 hrs. <br>
+            Miercoles: 10:00 a 20:00 hrs. <br>
+            Jueves: 10:00 a 20:00 hrs. <br>
+            Viernes: 10:00 a 20:00 hrs. <br>
+            Sábado: 10:00 a 20:00 hrs. <br>
+            Domingo: 12:00 a 18:00 hrs. <br>
+    
+        </p>
+    </section>
+    <!-- Termina la sección de los datos -->
     <footer>
         <br>
-        Página por @Isui Lugo para LaunchX 🚀<br>
+        Página por @IsuiLugo para LaunchX 🚀 | Misión FrontEnd 👨‍🚀 | Primer Vuelo🚀<br>
         <br>
     </footer>
 </body>
